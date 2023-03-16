@@ -1,0 +1,225 @@
+/* CONTACT */
+
+.contactSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 88px;
+}
+
+.contactBlock{
+    width: 100%;
+    height: 12vw;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+}
+
+.contactContent{
+    padding-bottom: 94px;
+}
+
+.locationInfo>h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.locationInfo>span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.97vw;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+#locationIcon{
+    width: 3vw;
+    height: 3vw;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contactBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+}
+
+.location{
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    padding-right: 2.7vw;
+}
+
+.callBlock{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    padding-right: 2.7vw;
+    height: 7vw;
+}
+
+.messageBlock{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.line{
+    background-color: #C0B7E8;
+}
+
+#arrIcon{
+    color: #C0B7E8;
+    position: relative;
+    left: -8px;
+}
+
+.childBlock{
+    display: flex;
+    align-items: center;
+}
+
+.childBlock>img{
+    width: 15vw;
+    height: 6.9vw;
+}
+
+.longLineRight{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.childrenBlock>h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding: 50px 0 -1px 0;
+}
+
+.longLineRight>h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vw;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.vr{
+    width: 50%;
+}
+
+.vr>p{
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.introductionBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location,.callBlock,.messageBlock{
+    width:100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+}
+.swiper-android .swiper-slide, .swiper-wrapper {
+    transform: translate3d(0px,0,0);
+}
+
+/* Contact-section-media */
+
+@media screen and (max-width: 768px) {
+    .locationInfo>span{
+        font-size: 1.1vw;
+    }
+
+    .locationInfo>h3{
+        line-height: 15px;
+    }
+    
+    .locationInfo>span{
+        line-height: 15px;
+    }
+
+    .vr>p{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .introductionBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vr{
+        display: none;
+    }
+
+    .childrenBlock{
+        width: 100%;
+        text-align: center;
+    }
+
+    .childrenBlock>h2{
+        font-size: 26px;
+    }
+
+    .longLineRight>h3{
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .childBlock{
+        display: none;
+    }
+
+    .location,.callBlock,.messageBlock{
+        border: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .locationInfo>h3{
+        display: none;
+    }
+
+    .locationInfo>span{
+        font-size: 12px;
+    }
+    .contactBlock{
+        height: 120px;
+    }
+
+    #locationIcon{
+        width: 30px;
+        height: 30px;
+    }
+}

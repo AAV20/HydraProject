@@ -1,0 +1,267 @@
+/* TECHNO */
+
+.technoSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 110px;
+}
+
+.bckg-Image>img{
+    width: 100%;
+    border-radius: 150px;
+}
+
+.bckg-Image{
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    position: absolute;
+    top: 26%;
+    transform: translateX(65%);
+    text-align: center;
+}
+
+.title>h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 44px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.title>h3{
+    font-family: 'Montserrat';
+    font-style: unset;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.downBtn{
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    padding: 1vw 1.2vw 1vw 1.2vw;
+    border: 10px solid #0E0E0E;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.downUp{
+    width: 4vw;
+    height: 4vw;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+
+#downArrow{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logoBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.technoBuild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circleBlocks{
+    width: 100%;
+    padding-top: 138px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number{
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4vw;
+    line-height: 78px;
+    color: #343045;
+    border: 15px solid #222;
+    
+}
+
+.circle-flex-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.designBlocks{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.design{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.design>h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#designArrow{
+    color: #C0B7E8;
+    width: 2rem;
+    height: 2rem;
+}
+
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-child-block{
+    display: flex;
+    flex-direction: column;
+}
+.swiperParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiperImageParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiperImage{
+    width: 12vw;
+    height: 12vw;
+}
+.swiper, .swiperParent, .swiper-initialized, .swiper-horizontal, .swiper-backface-hidden{
+    width: 100%;
+}
+.swiper-slide, .swiperImageParent, .swiper-slide-active{
+    display: flex;
+}
+
+.swiperParent{
+    width: 100%;
+}
+
+
+/* Techno-section-media */
+
+@media screen and (max-width: 768px) {
+    .title{
+        position: absolute;
+        top: 17%;
+        transform: translateX(65%);
+        text-align: center;
+    }
+
+    .downUp{
+        width: 5vw;
+        height: 5vw;
+        margin: auto;
+        position: relative;
+        top: -50px;  
+    }
+
+    .logoBlock{
+        width: 100%;
+        padding: 100px 0 100px 0;
+    }
+
+    .title>h2{
+        line-height: 28px;
+    }
+    
+    .title>span{
+        font-size: 2vw;
+    }
+
+    .design>h3{
+        font-size: 1.9vw;
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .downUp{
+        display: none;
+    }
+
+    .title>h2{
+        font-size: 16px;
+    }
+
+    .title>h3{
+        font-size: 24px;
+    }
+
+    .title{
+        position: absolute;
+        top: 15%;
+        transform: translateX(20%);
+        text-align: center;
+    }
+    
+    .bckg-Image>img{
+        height: 125px;
+    }
+
+    .swiperImage{
+        width: 256px;
+        height: 256px;
+    }
+
+    .number{
+        width: 198px;
+        height: 198px;
+        font-size: 44px;
+    }
+    
+    .design>h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .circle-flex-block {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+    
+}

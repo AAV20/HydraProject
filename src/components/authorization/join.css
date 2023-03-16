@@ -1,0 +1,234 @@
+.logInSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 112px;
+}
+
+.logInBlock{
+    width: 100%;
+    height: 1000px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.joinTitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.joinTitle>h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.joinTitle>h2::after{
+   content: '';
+   width: 100%;
+   height: 3px;
+   border-radius: 50%;
+   background: #403A5F;
+   display: block;
+   margin-top: 30px;
+}
+
+.joinTitle>h2{
+    padding-bottom: 45px;
+}
+
+.registrForm{
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.inpBlock3{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.inpBlock1{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 2.29vw;
+}
+
+.inpBlock2{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 2.29vw;
+}
+
+.inp1{
+    background: transparent;
+    width: 35.9vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-indent: 2vw;
+    color: #FFFFFF;
+}
+
+.inp2{
+    background: transparent;
+    width: 36vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-indent: 2vw;
+    color: #FFFFFF;
+}
+
+.inp3{
+    background: transparent;
+    width: 36vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-indent: 2vw;
+    color: #FFFFFF;
+}
+
+.inp4{
+    background: transparent;
+    width: 36vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-indent: 2vw;
+    color: #FFFFFF;
+}
+
+.inp5{
+    background: transparent;
+    color: #FFFFFF;
+    width: 36vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 73vw;
+    text-indent: 2vw;
+}
+
+.inp6{
+    background: transparent;
+    width: 36vw;
+    height: 5vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 73vw;
+    padding: 20px 0 200px 0;
+    text-indent: 2vw;
+    color: #FFFFFF;
+}
+
+.sendBtnBlock{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+}
+
+.sendBtn{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+    padding: 1.2vw 3.5vw 1.2vw 3.5vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 15px;
+    color: #343045;
+    cursor: pointer;
+    border: none;
+}
+
+/* Authorizetion-section-media */
+
+@media screen and (max-width: 768px) {
+    .sendBtn{
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        border-radius: 40px;
+        padding: 1.2vw 3.5vw 1.2vw 3.5vw;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4vw;
+        line-height: 15px;
+        color: #343045;
+        cursor: pointer;
+        border: none;
+    }
+
+    .logInBlock{
+        width: 100%;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .inpBlock1,.inpBlock2,.inpBlock3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inp1,.inp2,.inp3,.inp4,.inp5{
+        height: 53px;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        width: 300px;
+        text-indent: 20px;
+    }
+
+    .inp6{
+        height: 53px;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        width: 300px;
+        padding: 20px 0 200px 0;
+        text-indent: 20px;
+    }
+
+    .logInBlock{
+        width: 100%;
+        height: 1030px;
+    }
+
+    .sendBtn{
+        padding: 4.2vw 10vw 4.2vw 10vw;
+        font-size: 12px;
+    }
+
+    .joinTitle{
+        width: 50%;
+    }
+
+    .joinTitle>h2{
+        font-size: 24px;
+    }
+
+    .joinTitle>h3{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    .joinTitle>h2::after{
+        margin-top: 10px;
+     }
+}

@@ -1,0 +1,151 @@
+/* HEADER */
+
+.headerSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.imgBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerLogo{
+    width: 7vw;
+    height: 7vw;
+}
+
+.hydraText{
+    width: 5.1vw;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 15px;
+    color: #FFFFFF;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navBar,.navLink{
+    display: flex;
+    align-items: center;
+    gap: 3.2vw;
+}
+
+.contactBtn{
+   display: flex;
+   gap: 38px;
+}
+
+.contact{
+    border: 2px solid #FFFFFF;
+    padding: 1.2vw 3vw 1.2vw 3vw;
+    background: transparent;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.joinBtn{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+    border: none;
+    padding: 1.2vw 3vw 1.2vw 3vw;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 15px;
+    color: #343045;
+    cursor: pointer;
+}
+
+.burgerBlock{
+    display: none;
+}
+
+
+/* Header-section-media */
+
+@media screen and (max-width: 768px){
+    .contactBtn{
+        display: none;
+    }
+
+    .navBar{
+        display: none;
+    }
+
+    .burgerBlock{
+        display: block;
+        color: #8176AF;
+
+    }
+
+    .navList{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+        position: absolute;
+        right: 0;
+        top: 7rem;
+        text-align: center;
+        background: #057A8DFF;
+        padding: 1rem;
+        z-index: 999;
+    }
+
+    .navLink{
+        list-style: none;
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2vw;
+    }
+
+    .headerLogo {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .hydraText {
+        width: 7.1vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .headerLogo{
+        width: 69px;
+        height: 59.88px;
+    }
+
+    .hydraText{
+        width: 46px;
+        height: 28px;
+    }
+
+    .navLink{
+    font-size: 12px;
+    }
+}

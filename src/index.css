@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Cinzel&family=Jost&family=Libre+Bodoni&family=Lora&family=Montserrat:wght@200;300&family=Nunito&family=Oxygen:wght@700&family=Pacifico&family=Playfair+Display:ital@0;1&family=Poppins:wght@600&family=Raleway:wght@300;700&family=Roboto&family=Updock&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #302C42;
+}
+
+img{
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

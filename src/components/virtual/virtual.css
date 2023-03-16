@@ -1,0 +1,153 @@
+/* VIRTUAL */
+
+.mainSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 170px;
+}
+
+.textBlock>h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.19vw;
+    line-height: 56px;
+    color: #fff;
+    padding-bottom: 36px;
+}
+
+.wordColor1{
+    color: #8176AF;
+}
+
+.wordColor2{
+    color: #8176AF;
+}
+
+.textBlock>p{
+    width: 40%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 20px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.buildBlock{
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+}
+
+.buildWordBtn{
+    background: transparent;
+    padding: 1.2vw 3vw 1.2vw 3vw;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9vw;
+    line-height: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+#ArrowRight{
+    color: #C0B7E8;
+    user-select: none;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mainContent{
+    display: flex;
+    align-items: center;
+}
+
+.girlImage{
+    background: rgba(0, 0, 0, 0.13);
+    border: 8px solid #222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7vw 7vw 7vw 16vw;
+    width: 36.3vw;
+    height: 31vw;
+}
+
+@media screen and (max-width: 768px) {
+    .textBlock>h2{
+        line-height: 40px;
+        padding-bottom: 18px;
+    }
+
+    .textBlock>p{
+        width: 50%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 20px;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .buildWordBtn{
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mainContent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .paragraph{
+        display: none;
+    }
+
+    .girlImage{
+        width: 349.29px;
+        height: 349.29px;
+        background: rgba(0, 0, 0, 0.13);
+        border: 8px solid #222;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px 100px 100px 240px;
+    }
+
+    .girlImageBlock{
+        padding-bottom: 30px;
+    }
+
+    .textBlock>h2{
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    .wordColor1{
+        font-size: 35px;
+    }
+
+    .wordColor2{
+        font-size: 35px;
+    }
+
+    #ArrowRight{
+        display: none;
+    }
+
+    .buildWordBtn{
+        font-size: 14px;
+        padding: 4.5vw 18vw 4.5vw 18vw;
+    }
+
+}
